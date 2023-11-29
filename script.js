@@ -3,7 +3,7 @@ const container_modal = document.querySelector(".container_modal");
 const audio = document.createElement('audio');
 
 const openModal = () => {
- 
+  button.style.display = "none"
   const gerarCorAleatoria = () => {
     return `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)})`;
   };

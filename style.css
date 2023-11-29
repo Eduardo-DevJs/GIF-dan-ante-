@@ -36,6 +36,18 @@ button {
   bottom: 0;
   left: 0;
   right: 0;
+  animation:  crescer 2s ease-in-out;
+}
+
+@keyframes crescer {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 .container_modal.ativo{
